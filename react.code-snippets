@@ -3,7 +3,7 @@
     // React.js specific user snippets
 
     "React-Component": {
-        "prefix": "rcomp",
+        "prefix": "react-component",
         "body": [
             "import React from 'react'",
             "",
@@ -23,11 +23,6 @@
         "description": "React Component Basic"
     },
 
-    "This.Bind": {
-        "prefix": "jsbind",
-        "body": ["this.${1:func} = this.${1:func}.bind(this)"]
-    },
-
     "Functional Component": {
         "prefix": "functional",
         "scope": "javascript",
@@ -39,6 +34,11 @@
             ")",
             "\nexport default ${1:func}"
         ]
+    },
+
+    "This.Bind": {
+        "prefix": "jsbind",
+        "body": ["this.${1:func} = this.${1:func}.bind(this)"]
     },
 
     "Constructor": {
