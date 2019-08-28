@@ -1,0 +1,15 @@
+{
+    // javascript.json
+    // JavaScript specific user snippets
+
+    "For-Loop": {
+        "prefix": "forloop",
+        "body": ["for (let i = $1; $2; i++) {", "\t$0", "}"],
+        "description": "Basic for loop"
+    },
+
+    "Arrow Function": {
+        "prefix": "arrow",
+        "body": ["$1 = ($2) => {", "\t$0", "}"]
+    }
+}

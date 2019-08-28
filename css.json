@@ -1,0 +1,44 @@
+{
+    // css.json
+    // CSS specific user snippets
+
+    "CSS-Flex": {
+        "prefix": "csflex",
+        "body": [
+            "display: flex;",
+            "flex-flow: $1;",
+            "justify-content: $2;",
+            "align-items: $3;$0"
+        ],
+        "description": "CSS Flexbox - centered default"
+    },
+
+    "Flex-Col": {
+        "prefix": "fcol",
+        "body": [
+            "display: flex;",
+            "flex-flow: column nowrap;",
+            "justify-content: center;",
+            "align-items: center;"
+        ],
+        "description": "Flexbox - Column"
+    },
+
+    "Full Break": {
+        "prefix": "fullbreak",
+        "body": [
+            "border: none;",
+            "width: 100%;",
+            "height: 2px",
+            "background-color: ${1:#bdc3c7};",
+            "margin: 1rem 0;$0"
+        ],
+        "description": "Full horizontal rule formatting"
+    },
+
+    "Calculated Width": {
+        "prefix": "calcwidth",
+        "body": ["width: calc($1);$0"],
+        "description": "Calculated width"
+    }
+}

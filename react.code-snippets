@@ -1,0 +1,75 @@
+{
+    // react.code-snippets
+    // React.js specific user snippets
+
+    "React-Component": {
+        "prefix": "rcomp",
+        "body": [
+            "import React from 'react'",
+            "",
+            "export default class ${1:ClassName} extends React.Component {",
+            "\tconstructor(props) {",
+            "\t\tsuper(props)",
+            "\t\tthis.state = {}",
+            "\t}",
+            "",
+            "\trender() {",
+            "\t\treturn (",
+            "\t\t\t<div></div>",
+            "\t\t)",
+            "\t}",
+            "}"
+        ],
+        "description": "React Component Basic"
+    },
+
+    "This.Bind": {
+        "prefix": "jsbind",
+        "body": ["this.${1:func} = this.${1:func}.bind(this)"]
+    },
+
+    "Functional Component": {
+        "prefix": "functional",
+        "scope": "javascript",
+        "body": [
+            "import React from 'react'",
+            "\nconst ${1:func} = (props) => (",
+            "\t<div>",
+            "\t</div>",
+            ")",
+            "\nexport default ${1:func}"
+        ]
+    },
+
+    "Constructor": {
+        "prefix": "struct",
+        "body": [
+            "constructor(props) {",
+            "\tsuper(props)",
+            "\tthis.state = {}",
+            "}"
+        ]
+    },
+
+    "React Element": {
+        "prefix": "elem-react",
+        "body": ["<$1 className={ $2 }>$0</$1>"]
+    },
+
+    "Ternary Styles": {
+        "prefix": "ternstyle",
+        "body": ["style={ $1 ? $2 : $3 }$0"]
+    },
+
+    "OnChange Handler": {
+        "prefix": "onchangehandler",
+        "body": [
+            "changeHandler = (e) => {",
+            "\tconst {name, value} = e.target",
+            "\tthis.setState({",
+            "\t\t[name]: value",
+            "\t})",
+            "}"
+        ]
+    }
+}
