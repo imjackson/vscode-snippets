@@ -4,6 +4,7 @@
 
     "React-Component": {
         "prefix": "react-component",
+        "scope": "javascript",
         "body": [
             "import React from 'react'",
             "",
@@ -38,11 +39,13 @@
 
     "This.Bind": {
         "prefix": "jsbind",
+        "scope": "javascript",
         "body": ["this.${1:func} = this.${1:func}.bind(this)"]
     },
 
     "Constructor": {
         "prefix": "struct",
+        "scope": "javascript",
         "body": [
             "constructor(props) {",
             "\tsuper(props)",
@@ -53,16 +56,19 @@
 
     "React Element": {
         "prefix": "elem-react",
+        "scope": "javascript",
         "body": ["<$1 className={ $2 }>$0</$1>"]
     },
 
     "Ternary Styles": {
         "prefix": "ternstyle",
+        "scope": "javascript",
         "body": ["style={ $1 ? $2 : $3 }$0"]
     },
 
     "OnChange Handler": {
         "prefix": "onchangehandler",
+        "scope": "javascript",
         "body": [
             "changeHandler = (e) => {",
             "\tconst {name, value} = e.target",

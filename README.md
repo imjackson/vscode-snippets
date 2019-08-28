@@ -8,12 +8,16 @@ This respository holds my VSCode User Snippets files.
 
 ### JavaScript
 
+Found in: `javascript.json`
+
 | snippet   | purpose                     |
 | --------- | --------------------------- |
 | `forloop` | Creates a for loop          |
 | `arrow`   | Creates a an arrow function |
 
 ### CSS
+
+Found in: `css.json`
 
 | snippet     | purpose                                                  |
 | ----------- | -------------------------------------------------------- |
@@ -23,6 +27,8 @@ This respository holds my VSCode User Snippets files.
 | `calcwidth` | Creates a width styling rule containing a calc() value   |
 
 ### React
+
+Found in: `react.code-snippets`
 
 | snippet           | purpose                                                          |
 | ----------------- | ---------------------------------------------------------------- |
