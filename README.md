@@ -10,21 +10,24 @@ This respository holds my VSCode User Snippets files.
 
 Found in: `javascript.json`
 
-| snippet   | purpose                     |
-| --------- | --------------------------- |
-| `forloop` | Creates a for loop          |
-| `arrow`   | Creates a an arrow function |
+| snippet          | purpose                                                           |
+| ---------------- | ----------------------------------------------------------------- |
+| `forloop`        | Creates a for loop                                                |
+| `arrow`          | Creates an arrow function                                         |
+| `maparray`       | Implements array.map, passing currentValue and index              |
+| `simplemaparray` | Implements array.map, passing only currentValue with arrow syntax |
 
 ### CSS
 
 Found in: `css.json`
 
-| snippet     | purpose                                                  |
-| ----------- | -------------------------------------------------------- |
-| `csflex`    | Creates styling rules for a flex-box with placeholders   |
-| `fcol`      | Creates styling rules for a completely centered flex-box |
-| `fullbreak` | Creates styling rules for a full-width horizontal rule   |
-| `calcwidth` | Creates a width styling rule containing a calc() value   |
+| snippet        | purpose                                                                                |
+| -------------- | -------------------------------------------------------------------------------------- |
+| `csflex`       | Creates styling rules for a flex-box with placeholders                                 |
+| `fcol`         | Creates styling rules for a completely centered flex-box                               |
+| `fullbreak`    | Creates styling rules for a full-width horizontal rule                                 |
+| `calcwidth`    | Creates a width styling rule containing a calc() value                                 |
+| `widthpadding` | Creates width and padding styling rules containing a calc() value to factor in padding |
 
 ### React
 

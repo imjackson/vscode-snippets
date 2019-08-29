@@ -10,6 +10,19 @@
 
     "Arrow Function": {
         "prefix": "arrow",
-        "body": ["$1 = ($2) => {", "\t$0", "}"]
+        "body": ["$1 = ($2) => {", "\t$0", "}"],
+        "description": "Basic arrow function"
+    },
+
+    "Map": {
+        "prefix": "maparray",
+        "body": ["${1:array}.map(($2, index) => {$0})"],
+        "description": "Map with currentValue and index"
+    },
+
+    "Simple Map": {
+        "prefix": "simplemaparray",
+        "body": ["${1:array}.map(${2:arr} => $0)"],
+        "description": "Map with only currentValue"
     }
 }

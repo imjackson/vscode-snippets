@@ -21,7 +21,7 @@
             "\t}",
             "}"
         ],
-        "description": "React Component Basic"
+        "description": "React class component"
     },
 
     "Functional Component": {
@@ -34,13 +34,15 @@
             "\t</div>",
             ")",
             "\nexport default ${1:func}"
-        ]
+        ],
+        "description": "Functional component"
     },
 
     "This.Bind": {
         "prefix": "jsbind",
         "scope": "javascript",
-        "body": ["this.${1:func} = this.${1:func}.bind(this)"]
+        "body": ["this.${1:func} = this.${1:func}.bind(this)"],
+        "description": "Bind function to 'this'"
     },
 
     "Constructor": {
@@ -51,19 +53,22 @@
             "\tsuper(props)",
             "\tthis.state = {}",
             "}"
-        ]
+        ],
+        "description": "Class component constructor"
     },
 
     "React Element": {
         "prefix": "elem-react",
         "scope": "javascript",
-        "body": ["<$1 className={ $2 }>$0</$1>"]
+        "body": ["<$1 className={ $2 }>$0</$1>"],
+        "description": "React-html element with className attribute"
     },
 
     "Ternary Styles": {
         "prefix": "ternstyle",
         "scope": "javascript",
-        "body": ["style={ $1 ? $2 : $3 }$0"]
+        "body": ["style={ $1 ? $2 : $3 }$0"],
+        "description": "Style attribute with ternary operator"
     },
 
     "OnChange Handler": {
@@ -76,6 +81,7 @@
             "\t\t[name]: value",
             "\t})",
             "}"
-        ]
+        ],
+        "description": "Basic changeHandler for name and value"
     }
 }
