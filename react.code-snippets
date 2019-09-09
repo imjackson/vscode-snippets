@@ -4,7 +4,7 @@
 
     "React-Component": {
         "prefix": "react-component",
-        "scope": "javascript",
+        "scope": "javascript, javascriptreact",
         "body": [
             "import React from 'react'",
             "",
@@ -26,7 +26,7 @@
 
     "Functional Component": {
         "prefix": "functional",
-        "scope": "javascript",
+        "scope": "javascript, javascriptreact",
         "body": [
             "import React from 'react'",
             "\nconst ${1:func} = (props) => (",
@@ -40,14 +40,14 @@
 
     "This.Bind": {
         "prefix": "jsbind",
-        "scope": "javascript",
+        "scope": "javascript, javascriptreact",
         "body": ["this.${1:func} = this.${1:func}.bind(this)"],
         "description": "Bind function to 'this'"
     },
 
     "Constructor": {
-        "prefix": "struct",
-        "scope": "javascript",
+        "prefix": "struct, javascriptreact",
+        "scope": "javascript, javascriptreact",
         "body": [
             "constructor(props) {",
             "\tsuper(props)",
@@ -59,21 +59,21 @@
 
     "React Element": {
         "prefix": "elem-react",
-        "scope": "javascript",
+        "scope": "javascript, javascriptreact",
         "body": ["<$1 className={ $2 }>$0</$1>"],
         "description": "React-html element with className attribute"
     },
 
     "Ternary Styles": {
         "prefix": "ternstyle",
-        "scope": "javascript",
+        "scope": "javascript, javascriptreact",
         "body": ["style={ $1 ? $2 : $3 }$0"],
         "description": "Style attribute with ternary operator"
     },
 
     "OnChange Handler": {
         "prefix": "onchangehandler",
-        "scope": "javascript",
+        "scope": "javascript, javascriptreact",
         "body": [
             "changeHandler = (e) => {",
             "\tconst {name, value} = e.target",
