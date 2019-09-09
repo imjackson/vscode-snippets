@@ -51,7 +51,7 @@
         "body": [
             "constructor(props) {",
             "\tsuper(props)",
-            "\tthis.state = {}",
+            "\tthis.state = { $0 }",
             "}"
         ],
         "description": "Class component constructor"
@@ -83,5 +83,19 @@
             "}"
         ],
         "description": "Basic changeHandler for name and value"
+    },
+
+    "Conditional Render": {
+        "prefix": "conditionalrender",
+        "scope": "javascript, javascriptreact",
+        "body": ["{ ${1:condition} ? ", "\t${2:<Component />}", " : null }"],
+        "description": "Conditionally renders component based on single boolean state"
+    },
+
+    "Input Attributes": {
+        "prefix": "inputattrs",
+        "scope": "javascript, javascriptreact",
+        "body": ["name='$1' value={$2} onChange={$3} placeholder='$4' $0"],
+        "description": "Creates row of standard input attributes"
     }
 }

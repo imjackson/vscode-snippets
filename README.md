@@ -33,12 +33,14 @@ Found in: `css.json`
 
 Found in: `react.code-snippets`
 
-| snippet           | purpose                                                          |
-| ----------------- | ---------------------------------------------------------------- |
-| `react-component` | Creates a class-based react component                            |
-| `functional`      | Creates a functional react component                             |
-| `jsbind`          | Creates a function bind to 'this'                                |
-| `struct`          | Creates a class-component constructor                            |
-| `elem-react`      | Creates a react-html element + 'className' attribute             |
-| `ternstyle`       | Creates a react-html style attribute with ternary operator       |
-| `onchangehandler` | Creates an input changeHandler for 'name' and 'value' attributes |
+| snippet             | purpose                                                                               |
+| ------------------- | ------------------------------------------------------------------------------------- |
+| `react-component`   | Creates a class-based react component                                                 |
+| `functional`        | Creates a functional react component                                                  |
+| `jsbind`            | Creates a function bind to 'this'                                                     |
+| `struct`            | Creates a class-component constructor                                                 |
+| `elem-react`        | Creates a react-html element + 'className' attribute                                  |
+| `ternstyle`         | Creates a react-html style attribute with ternary operator                            |
+| `onchangehandler`   | Creates an input changeHandler for 'name' and 'value' attributes                      |
+| `conditionalrender` | Creates a conditional rendering of a single component based on a single boolean state |
+| `inputattrs`        | Creates row of standard text input element attributes                                 |
