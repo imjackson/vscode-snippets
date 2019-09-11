@@ -22,16 +22,16 @@ Found in: `javascript.json`
 
 Found in: `css.json`
 
-| snippet        | purpose                                                                                |
-| -------------- | -------------------------------------------------------------------------------------- |
-| `csflex`       | Creates styling rules for a flex-box with placeholders                                 |
-| `fcol`         | Creates styling rules for a completely centered flex-box                               |
-| `fullbreak`    | Creates styling rules for a full-width horizontal rule                                 |
-| `calcwidth`    | Creates a width styling rule containing a calc() value                                 |
-| `widthpadding` | Creates width and padding styling rules containing a calc() value to factor in padding |
-| `fileheader`   | Creates css file comment header for file description                                   |
-| `fadein`       | Outputs basic fade-in css keyframes                                                    |
-| `loading`      | Outputs basic spinner loading circle css keyframes                                     |
+| snippet            | purpose                                                                                |
+| ------------------ | -------------------------------------------------------------------------------------- |
+| `csflex`           | Creates styling rules for a flex-box with placeholders                                 |
+| `fcol`             | Creates styling rules for a completely centered flex-box                               |
+| `fullbreak`        | Creates styling rules for a full-width horizontal rule                                 |
+| `calcwidth`        | Creates a width styling rule containing a calc() value                                 |
+| `widthpadding`     | Creates width and padding styling rules containing a calc() value to factor in padding |
+| `fileheader`       | Creates css file comment header for file description                                   |
+| `fadein-keyframe`  | Outputs basic fade-in css keyframes                                                    |
+| `loading-keyframe` | Outputs basic spinner loading circle css keyframes                                     |
 
 ### React
 

@@ -63,7 +63,7 @@
     },
 
     "Fade-In": {
-        "prefix": "fadein",
+        "prefix": "fadein-keyframe",
         "body": [
             "@keyframes fade-in {",
             "\t0% {",
@@ -77,7 +77,7 @@
     },
 
     "Loading": {
-        "prefix": "loading",
+        "prefix": "loading-keyframe",
         "body": [
             "@keyframes loading {",
             "\t0% {",
@@ -85,6 +85,21 @@
             "\t} 100% {",
             "\t\ttransform: rotate(360deg); ",
             "\t}",
+            "}"
+        ],
+        "description": "Outputs basic spinner loading circle css keyframes"
+    },
+
+    "Loading Element": {
+        "prefix": "loading-element",
+        "body": [
+            ".LoadingIcon {",
+            "\theight: 70px;",
+            "\twidth: 70px;",
+            "\tborder-radius: 50%;",
+            "\tanimation: spin 1s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;",
+            "\tborder: 8px solid transparent;",
+            "\tborder-top: 8px solid #252525",
             "}"
         ],
         "description": "Outputs basic spinner loading circle css keyframes"
