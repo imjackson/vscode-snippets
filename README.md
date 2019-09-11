@@ -29,6 +29,7 @@ Found in: `css.json`
 | `fullbreak`    | Creates styling rules for a full-width horizontal rule                                 |
 | `calcwidth`    | Creates a width styling rule containing a calc() value                                 |
 | `widthpadding` | Creates width and padding styling rules containing a calc() value to factor in padding |
+| `fileheader`   | Creates css file comment header for file description                                   |
 
 ### React
 
@@ -46,3 +47,4 @@ Found in: `react.code-snippets`
 | `conditionalrender` | Creates a conditional rendering of a single component based on a single boolean state |
 | `inputattrs`        | Creates row of standard text input element attributes                                 |
 | `deconstate`        | Creates const value for deconstructing state                                          |
+| `fileheader`        | Creates js/jsx file comment header for file description                               |

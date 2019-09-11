@@ -104,5 +104,18 @@
         "scope": "javascript, javascriptreact",
         "body": ["const { ${1:values} } = this.state"],
         "description": "Creates const for deconstructed state values"
+    },
+
+    "File Header": {
+        "prefix": "fileheader",
+        "scope": "javascript, javascriptreact",
+        "body": [
+            "// ============================================================",
+            "// ${1:filename.js}",
+            "//",
+            "// ${2:file description}",
+            "// ============================================================"
+        ],
+        "description": "Creates js/jsx comment file header"
     }
 }

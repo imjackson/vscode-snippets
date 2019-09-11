@@ -46,5 +46,19 @@
         "prefix": "widthpadding",
         "body": ["width: calc(${1:100%} - $2);", "padding: $3 $4;$0"],
         "description": "Width and padding rules with width factoring in padding"
+    },
+
+    "File Header": {
+        "prefix": "fileheader",
+        "body": [
+            "/*",
+            "",
+            "${1:filename}.css",
+            "------------------------",
+            "${2:file description}",
+            "",
+            "*/"
+        ],
+        "description": "Creates css comment file header"
     }
 }
