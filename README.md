@@ -30,6 +30,8 @@ Found in: `css.json`
 | `calcwidth`    | Creates a width styling rule containing a calc() value                                 |
 | `widthpadding` | Creates width and padding styling rules containing a calc() value to factor in padding |
 | `fileheader`   | Creates css file comment header for file description                                   |
+| `fadein`       | Outputs basic fade-in css keyframes                                                    |
+| `loading`      | Outputs basic spinner loading circle css keyframes                                     |
 
 ### React
 

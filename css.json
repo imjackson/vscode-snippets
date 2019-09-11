@@ -60,5 +60,33 @@
             "*/"
         ],
         "description": "Creates css comment file header"
+    },
+
+    "Fade-In": {
+        "prefix": "fadein",
+        "body": [
+            "@keyframes fade-in {",
+            "\t0% {",
+            "\t\topacity: 0;",
+            "\t} 100% {",
+            "\t\topacity: 1;",
+            "\t}",
+            "}"
+        ],
+        "description": "Outputs basic fade-in css keyframes"
+    },
+
+    "Loading": {
+        "prefix": "loading",
+        "body": [
+            "@keyframes loading {",
+            "\t0% {",
+            "\t\ttransform: rotate(0deg);",
+            "\t} 100% {",
+            "\t\ttransform: rotate(360deg); ",
+            "\t}",
+            "}"
+        ],
+        "description": "Outputs basic spinner loading circle css keyframes"
     }
 }
