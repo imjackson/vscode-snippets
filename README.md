@@ -16,6 +16,7 @@ Found in: `javascript.json`
 | `arrow`          | Creates an arrow function                                         |
 | `maparray`       | Implements array.map, passing currentValue and index              |
 | `simplemaparray` | Implements array.map, passing only currentValue with arrow syntax |
+| `functimeout`    | Implements setTimeout() around a function                         |
 
 ### CSS
 

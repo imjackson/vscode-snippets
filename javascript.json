@@ -24,5 +24,11 @@
         "prefix": "simplemaparray",
         "body": ["${1:array}.map(${2:arr} => $0)"],
         "description": "Map with only currentValue"
+    },
+
+    "SetTimeout": {
+        "prefix": "functimeout",
+        "body": ["setTimeout(() => {", "\t${1:func}", "}, ${2:2000})"],
+        "description": "Implements setTimeout() around a function"
     }
 }
