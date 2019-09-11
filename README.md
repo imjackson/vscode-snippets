@@ -45,3 +45,4 @@ Found in: `react.code-snippets`
 | `onchangehandler`   | Creates an input changeHandler for 'name' and 'value' attributes                      |
 | `conditionalrender` | Creates a conditional rendering of a single component based on a single boolean state |
 | `inputattrs`        | Creates row of standard text input element attributes                                 |
+| `deconstate`        | Creates const value for deconstructing state                                          |

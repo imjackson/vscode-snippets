@@ -97,5 +97,12 @@
         "scope": "javascript, javascriptreact",
         "body": ["name='$1' value={$2} onChange={$3} placeholder='$4' $0"],
         "description": "Creates row of standard input attributes"
+    },
+
+    "Deconstructed State": {
+        "prefix": "deconstate",
+        "scope": "javascript, javascriptreact",
+        "body": ["const { ${1:values} } = this.state"],
+        "description": "Creates const for deconstructed state values"
     }
 }
