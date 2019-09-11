@@ -44,7 +44,7 @@
 
     "Width - Padding": {
         "prefix": "widthpadding",
-        "body": ["width: calc(${1:100%} - $2);", "padding: $3 $2;$0"],
+        "body": ["width: calc(${1:100%} - $2);", "padding: $3 $4;$0"],
         "description": "Width and padding rules with width factoring in padding"
     }
 }
