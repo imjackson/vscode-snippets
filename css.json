@@ -14,7 +14,7 @@
     },
 
     "Flex-Col": {
-        "prefix": "fcol",
+        "prefix": "centerflex",
         "body": [
             "display: flex;",
             "flex-flow: column nowrap;",
@@ -102,6 +102,12 @@
             "\tborder-top: 8px solid #252525",
             "}"
         ],
-        "description": "Outputs basic spinner loading circle css keyframes"
+        "description": "Outputs basic spinner loading circle element style rules"
+    },
+
+    "Media Query": {
+        "prefix": "mediaquery",
+        "body": ["@media screen and (max-width: ${1:1000px}) {$0}"],
+        "description": "Outputs max-width-based media query"
     }
 }

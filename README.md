@@ -25,13 +25,15 @@ Found in: `css.json`
 | snippet            | purpose                                                                                |
 | ------------------ | -------------------------------------------------------------------------------------- |
 | `csflex`           | Creates styling rules for a flex-box with placeholders                                 |
-| `fcol`             | Creates styling rules for a completely centered flex-box                               |
+| `centerflex`       | Creates styling rules for a completely centered flex-box                               |
 | `fullbreak`        | Creates styling rules for a full-width horizontal rule                                 |
 | `calcwidth`        | Creates a width styling rule containing a calc() value                                 |
 | `widthpadding`     | Creates width and padding styling rules containing a calc() value to factor in padding |
 | `fileheader`       | Creates css file comment header for file description                                   |
 | `fadein-keyframe`  | Outputs basic fade-in css keyframes                                                    |
 | `loading-keyframe` | Outputs basic spinner loading circle css keyframes                                     |
+| `loading-element`  | Outputs basic spinner loading circle element style rules                               |
+| `media-query`      | Outputs max-width-based media query                                                    |
 
 ### React
 
