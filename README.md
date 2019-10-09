@@ -26,6 +26,7 @@ Found in: `css.json`
 | ------------------ | -------------------------------------------------------------------------------------- |
 | `csflex`           | Creates styling rules for a flex-box with placeholders                                 |
 | `centerflex`       | Creates styling rules for a completely centered flex-box                               |
+| `setfont`          | Outputs lines for setting font family/size/weight                                      |
 | `fullbreak`        | Creates styling rules for a full-width horizontal rule                                 |
 | `calcwidth`        | Creates a width styling rule containing a calc() value                                 |
 | `widthpadding`     | Creates width and padding styling rules containing a calc() value to factor in padding |
