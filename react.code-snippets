@@ -106,6 +106,13 @@
         "description": "Creates const for deconstructed state values"
     },
 
+    "Deconstructed Context": {
+        "prefix": "deconcontext",
+        "scope": "javascript, javascriptreact",
+        "body": ["const { ${1:values} } = this.context"],
+        "description": "Creates const for deconstructed context values"
+    },
+
     "File Header": {
         "prefix": "fileheader",
         "scope": "javascript, javascriptreact",
