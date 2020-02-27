@@ -29,10 +29,9 @@
         "scope": "javascript, javascriptreact",
         "body": [
             "import React from 'react'",
-            "\nconst ${1:func} = (props) => (",
-            "\t<div>",
-            "\t</div>",
-            ")",
+            "\nconst ${1:func} = (props) => {",
+            "\treturn <${2:div}>$0</${2:div}>",
+            "}",
             "\nexport default ${1:func}"
         ],
         "description": "Functional component"
