@@ -54,3 +54,4 @@ Found in: `react.code-snippets`
 | `deconstate`        | Creates const value for deconstructing state                                          |
 | `deconcontext`      | Creates const value for deconstructing context                                        |
 | `fileheader`        | Creates js/jsx file comment header for file description                               |
+| `useEffect`         | Creates useEffect hook implementation                                                 |

@@ -123,5 +123,12 @@
             "// ============================================================"
         ],
         "description": "Creates js/jsx comment file header"
+    },
+
+    "useEffect": {
+        "prefix": "useEffect",
+        "scope": "javascript, javascriptreact",
+        "body": ["useEffect(() => {", " \t$0", "})"],
+        "description": "Creates useEffect hook implementation"
     }
 }
