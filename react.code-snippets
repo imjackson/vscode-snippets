@@ -130,5 +130,12 @@
         "scope": "javascript, javascriptreact",
         "body": ["useEffect(() => {", " \t$0", "})"],
         "description": "Creates useEffect hook implementation"
+    },
+
+    "useState": {
+        "prefix": "useState",
+        "scope": "javascript, javascriptreact",
+        "body": ["const [${1:state}, ${2:setState}] = useState(${3:false})"],
+        "description": "Creates useState hook implementation"
     }
 }
