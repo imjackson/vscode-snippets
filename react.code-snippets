@@ -87,7 +87,7 @@
     "Conditional Render": {
         "prefix": "conditionalrender",
         "scope": "javascript, javascriptreact",
-        "body": ["{ ${1:condition} ? ", "\t${2:<Component />}", " : null }"],
+        "body": ["{ ${1:condition} && ", "\t${2:<Component />} }"],
         "description": "Conditionally renders component based on single boolean state"
     },
 
