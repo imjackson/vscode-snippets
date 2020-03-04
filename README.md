@@ -56,3 +56,4 @@ Found in: `react.code-snippets`
 | `fileheader`        | Creates js/jsx file comment header for file description                               |
 | `useEffect`         | Creates useEffect hook implementation                                                 |
 | `useState`          | Creates useState hook implementation                                                  |
+| `useContext`        | Creates useContext hook implementation                                                |
