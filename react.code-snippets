@@ -37,13 +37,6 @@
         "description": "Functional component"
     },
 
-    "This.Bind": {
-        "prefix": "jsbind",
-        "scope": "javascript, javascriptreact",
-        "body": ["this.${1:func} = this.${1:func}.bind(this)"],
-        "description": "Bind function to 'this'"
-    },
-
     "Constructor": {
         "prefix": "struct, javascriptreact",
         "scope": "javascript, javascriptreact",

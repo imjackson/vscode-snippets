@@ -42,9 +42,14 @@ Found in: `react.code-snippets`
 
 | snippet             | purpose                                                                               |
 | ------------------- | ------------------------------------------------------------------------------------- |
+| components          |
 | `react-component`   | Creates a class-based react component                                                 |
 | `functional`        | Creates a functional react component                                                  |
-| `jsbind`            | Creates a function bind to 'this'                                                     |
+| hooks               |
+| `useEffect`         | Creates useEffect hook implementation                                                 |
+| `useState`          | Creates useState hook implementation                                                  |
+| `useContext`        | Creates useContext hook implementation                                                |
+| other               |
 | `struct`            | Creates a class-component constructor                                                 |
 | `elem-react`        | Creates a react-html element + 'className' attribute                                  |
 | `ternstyle`         | Creates a react-html style attribute with ternary operator                            |
@@ -54,6 +59,3 @@ Found in: `react.code-snippets`
 | `deconstate`        | Creates const value for deconstructing state                                          |
 | `deconcontext`      | Creates const value for deconstructing context                                        |
 | `fileheader`        | Creates js/jsx file comment header for file description                               |
-| `useEffect`         | Creates useEffect hook implementation                                                 |
-| `useState`          | Creates useState hook implementation                                                  |
-| `useContext`        | Creates useContext hook implementation                                                |
