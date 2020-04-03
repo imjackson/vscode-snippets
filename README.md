@@ -43,8 +43,9 @@ Found in: `react.code-snippets`
 | snippet             | purpose                                                                               |
 | ------------------- | ------------------------------------------------------------------------------------- |
 | components          |
-| `react-component`   | Creates a class-based react component                                                 |
-| `functional`        | Creates a functional react component                                                  |
+| `class-component`   | Creates a class-based react component structure                                       |
+| `functional`        | Creates a functional react component structure                                        |
+| `stateless`         | Creates a functional stateless react component structure                              |
 | hooks               |
 | `useEffect`         | Creates useEffect hook implementation                                                 |
 | `useState`          | Creates useState hook implementation                                                  |

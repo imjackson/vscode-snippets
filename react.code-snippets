@@ -2,13 +2,13 @@
     // react.code-snippets
     // React.js specific user snippets
 
-    "React-Component": {
-        "prefix": "react-component",
+    // COMPONENTS
+
+    "Class Component": {
+        "prefix": "class-component",
         "scope": "javascript, javascriptreact",
         "body": [
-            "import React from 'react'",
-            "",
-            "export default class ${1:ClassName} extends React.Component {",
+            "class ${1:ClassName} extends React.Component {",
             "\tconstructor(props) {",
             "\t\tsuper(props)",
             "\t\tthis.state = {}",
@@ -16,10 +16,11 @@
             "",
             "\trender() {",
             "\t\treturn (",
-            "\t\t\t<div></div>",
+            "\t\t\t<div>$0</div>",
             "\t\t)",
             "\t}",
-            "}"
+            "}",
+            "\n${2:export default ${1:ClassName}}"
         ],
         "description": "React class component"
     },
@@ -28,14 +29,50 @@
         "prefix": "functional",
         "scope": "javascript, javascriptreact",
         "body": [
-            "import React from 'react'",
-            "\nconst ${1:func} = (props) => {",
-            "\treturn <${2:div}>$0</${2:div}>",
+            "const ${1:func} = (${2:props}) => {",
+            "\treturn (<${4:div}>$0</${4:div}>)",
             "}",
-            "\nexport default ${1:func}"
+            "\n${3:export default ${1:func}}"
         ],
-        "description": "Functional component"
+        "description": "React functional component"
     },
+
+    "Stateless Functional Component": {
+        "prefix": "stateless",
+        "scope": "javascript, javascriptreact",
+        "body": [
+            "const ${1:func} = (${2:props}) => (",
+            "\t<${4:div}>$0</${4:div}>",
+            ")",
+            "\n${3:export default ${1:func}}"
+        ],
+        "description": "React stateless functional component"
+    },
+
+    // HOOKS
+
+    "useEffect": {
+        "prefix": "useEffect",
+        "scope": "javascript, javascriptreact",
+        "body": ["useEffect(() => {", " \t$0", "})"],
+        "description": "Creates useEffect hook implementation"
+    },
+
+    "useState": {
+        "prefix": "useState",
+        "scope": "javascript, javascriptreact",
+        "body": ["const [${1:state}, ${2:setState}] = useState(${3:false})"],
+        "description": "Creates useState hook implementation"
+    },
+
+    "useContext": {
+        "prefix": "useContext",
+        "scope": "javascript, javascriptreact",
+        "body": ["const { ${1} } = useContext(${2})"],
+        "description": "Creates useContext hook implementation"
+    },
+
+    // OTHER
 
     "Constructor": {
         "prefix": "struct, javascriptreact",
@@ -116,26 +153,5 @@
             "// ============================================================"
         ],
         "description": "Creates js/jsx comment file header"
-    },
-
-    "useEffect": {
-        "prefix": "useEffect",
-        "scope": "javascript, javascriptreact",
-        "body": ["useEffect(() => {", " \t$0", "})"],
-        "description": "Creates useEffect hook implementation"
-    },
-
-    "useState": {
-        "prefix": "useState",
-        "scope": "javascript, javascriptreact",
-        "body": ["const [${1:state}, ${2:setState}] = useState(${3:false})"],
-        "description": "Creates useState hook implementation"
-    },
-
-    "useContext": {
-        "prefix": "useContext",
-        "scope": "javascript, javascriptreact",
-        "body": ["const { ${1} } = useContext(${2})"],
-        "description": "Creates useContext hook implementation"
     }
 }
