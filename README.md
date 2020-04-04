@@ -45,16 +45,17 @@ Found in: `react.code-snippets`
 | basic methods       |
 | `imp`               | Import statement - defaults to importing React                                        |
 | `impd`              | Import statement deconstructed                                                        |
-| `expc`              | export const statement                                                                |
-| `expd`              | export default statement                                                              |
+| `expc`              | Export const statement                                                                |
+| `expd`              | Export default statement                                                              |
 | components          |
 | `class-component`   | Creates a class-based react component structure                                       |
 | `functional`        | Creates a functional react component structure                                        |
 | `stateless`         | Creates a functional stateless react component structure                              |
 | hooks               |
-| `useEffect`         | Creates useEffect hook implementation                                                 |
-| `useState`          | Creates useState hook implementation                                                  |
-| `useContext`        | Creates useContext hook implementation                                                |
+| `useEffect`         | useEffect hook statement                                                              |
+| `useState`          | useState hook statement                                                               |
+| `useContext`        | useContext hook statement                                                             |
+| `useRef`            | useRef hook statement                                                                 |
 | other               |
 | `elem-react`        | Creates a react-html element + 'className' attribute                                  |
 | `ternstyle`         | Creates a react-html style attribute with ternary operator                            |

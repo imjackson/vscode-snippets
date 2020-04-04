@@ -102,6 +102,13 @@
         "description": "Creates useContext hook implementation"
     },
 
+    "useRef": {
+        "prefix": "useRef",
+        "scope": "javascript, javascriptreact",
+        "body": ["const ${1:ref} = useRef(${2:null})"],
+        "description": "Creates useContext hook implementation"
+    },
+
     // OTHER
 
     "React Element": {
