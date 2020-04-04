@@ -56,7 +56,6 @@ Found in: `react.code-snippets`
 | `useState`          | Creates useState hook implementation                                                  |
 | `useContext`        | Creates useContext hook implementation                                                |
 | other               |
-| `struct`            | Creates a class-component constructor                                                 |
 | `elem-react`        | Creates a react-html element + 'className' attribute                                  |
 | `ternstyle`         | Creates a react-html style attribute with ternary operator                            |
 | `onchangehandler`   | Creates an input changeHandler for 'name' and 'value' attributes                      |

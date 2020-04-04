@@ -104,18 +104,6 @@
 
     // OTHER
 
-    "Constructor": {
-        "prefix": "struct, javascriptreact",
-        "scope": "javascript, javascriptreact",
-        "body": [
-            "constructor(props) {",
-            "\tsuper(props)",
-            "\tthis.state = { $0 }",
-            "}"
-        ],
-        "description": "Class component constructor"
-    },
-
     "React Element": {
         "prefix": "elem-react",
         "scope": "javascript, javascriptreact",
