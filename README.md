@@ -42,6 +42,11 @@ Found in: `react.code-snippets`
 
 | snippet             | purpose                                                                               |
 | ------------------- | ------------------------------------------------------------------------------------- |
+| basic methods       |
+| `imp`               | Import statement - defaults to importing React                                        |
+| `impd`              | Import statement deconstructed                                                        |
+| `expc`              | export const statement                                                                |
+| `expd`              | export default statement                                                              |
 | components          |
 | `class-component`   | Creates a class-based react component structure                                       |
 | `functional`        | Creates a functional react component structure                                        |

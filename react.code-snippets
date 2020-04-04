@@ -2,6 +2,36 @@
     // react.code-snippets
     // React.js specific user snippets
 
+    // BASIC METHODS
+
+    "Import": {
+        "prefix": "imp",
+        "scope": "javascript, javascriptreact",
+        "body": ["import ${1:React} from '${2:react}'"],
+        "description": "Import statement - defaults to importing React"
+    },
+
+    "Import Deconstructed": {
+        "prefix": "impd",
+        "scope": "javascript, javascriptreact",
+        "body": ["import { ${1:Component} } from '${2:package}'"],
+        "description": "Import statement deconstructed"
+    },
+
+    "Export const": {
+        "prefix": "expc",
+        "scope": "javascript, javascriptreact",
+        "body": ["export const $0"],
+        "description": "Export const statement"
+    },
+
+    "Export default": {
+        "prefix": "expd",
+        "scope": "javascript, javascriptreact",
+        "body": ["export default ${1:Component}"],
+        "description": "Export default statement"
+    },
+
     // COMPONENTS
 
     "Class Component": {
