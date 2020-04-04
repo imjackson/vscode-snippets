@@ -109,6 +109,29 @@
         "description": "Creates useContext hook implementation"
     },
 
+    // CONDITIONALS
+
+    "Render if": {
+        "prefix": "renif",
+        "scope": "javascript, javascriptreact",
+        "body": ["{ ${1:condition} && ( ", "\t$0", ")}"],
+        "description": "Render react element if condition returns true"
+    },
+
+    "Return if": {
+        "prefix": "retif",
+        "scope": "javascript, javascriptreact",
+        "body": ["if (${1:condition}) {", "\treturn $0", "}"],
+        "description": "Return react element if condition returns true"
+    },
+
+    "Return if singleline": {
+        "prefix": "retifs",
+        "scope": "javascript, javascriptreact",
+        "body": ["if (${1:condition}) return ${2:component}"],
+        "description": "Return react element if condition returns true (single line)"
+    },
+
     // OTHER
 
     "React Element": {
