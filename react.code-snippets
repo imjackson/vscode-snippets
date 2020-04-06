@@ -201,5 +201,24 @@
             "// ============================================================"
         ],
         "description": "Creates js/jsx comment file header"
+    },
+
+    // REACT NATIVE
+
+    "Import ReactNative": {
+        "prefix": "rnimp",
+        "scope": "javascript, javascriptreact",
+        "body": ["import { ${1:Component} } from 'react-native'"],
+        "description": "Import statement for components from react-native"
+    },
+
+    "ReactNative StyleSheet": {
+        "prefix": "rnss",
+        "scope": "javascript, javascriptreact",
+        "body": [
+            "${1:import { StyleSheet \\} from 'react-native'}",
+            "\nexport default StyleSheet.create({$0})"
+        ],
+        "description": "Statement to create react native stylesheet (optional import)"
     }
 }

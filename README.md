@@ -42,25 +42,25 @@ Found in: `react.code-snippets`
 
 | snippet             | purpose                                                                                       |
 | ------------------- | --------------------------------------------------------------------------------------------- |
-| basic methods       |
+| **basic methods**   |
 | `imp`               | Import statement - defaults to importing React                                                |
 | `impd`              | Import statement deconstructed                                                                |
 | `expc`              | Export const statement                                                                        |
 | `expd`              | Export default statement                                                                      |
-| components          |
+| **components**      |
 | `class-component`   | Creates a class-based react component structure                                               |
 | `functional`        | Creates a functional react component structure                                                |
 | `stateless`         | Creates a functional stateless react component structure                                      |
-| hooks               |
+| **hooks**           |
 | `useEffect`         | useEffect hook statement                                                                      |
 | `useState`          | useState hook statement                                                                       |
 | `useContext`        | useContext hook statement                                                                     |
 | `useRef`            | useRef hook statement                                                                         |
-| conditionals        |
+| **conditionals**    |
 | `renif`             | Statement to render react element within jsx if condition returns true                        |
 | `retif`             | Statement to return a react element within component body if condition turns true             |
 | `retifs`            | Single line statement to return a react element within component body if condition turns true |
-| other               |
+| **other**           |
 | `elem-react`        | Creates a react-html element + 'className' attribute                                          |
 | `ternstyle`         | Creates a react-html style attribute with ternary operator                                    |
 | `onchangehandler`   | Creates an input changeHandler for 'name' and 'value' attributes                              |
@@ -69,3 +69,6 @@ Found in: `react.code-snippets`
 | `deconstate`        | Creates const value for deconstructing state                                                  |
 | `deconcontext`      | Creates const value for deconstructing context                                                |
 | `fileheader`        | Creates js/jsx file comment header for file description                                       |
+| **React Native**    |
+| `rnimp`             | Import statement for components from react-native                                             |
+| `rnss`              | Statement to create react native stylesheet (optional import for StyleSheet object)           |
