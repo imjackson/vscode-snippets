@@ -58,6 +58,7 @@ Found in: `react.code-snippets`
 | `useRef`            | useRef hook statement                                                                         |
 | **conditionals**    |
 | `renif`             | Statement to render react element within jsx if condition returns true                        |
+| `renifel`           | Ternary statement to conditionally render two components                                      |
 | `retif`             | Statement to return a react element within component body if condition turns true             |
 | `retifs`            | Single line statement to return a react element within component body if condition turns true |
 | **other**           |
