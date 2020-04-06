@@ -14,7 +14,7 @@
     "Import Deconstructed": {
         "prefix": "impd",
         "scope": "javascript, javascriptreact",
-        "body": ["import { ${1:Component} } from '${2:package}'"],
+        "body": ["import { ${1:Component} } from '${2:module}'"],
         "description": "Import statement deconstructed"
     },
 
@@ -28,7 +28,7 @@
     "Export default": {
         "prefix": "expd",
         "scope": "javascript, javascriptreact",
-        "body": ["export default ${1:Component}"],
+        "body": ["export default $0"],
         "description": "Export default statement"
     },
 
@@ -84,7 +84,7 @@
     "useEffect": {
         "prefix": "useEffect",
         "scope": "javascript, javascriptreact",
-        "body": ["useEffect(() => {", " \t$0", "})"],
+        "body": ["useEffect(() => {\n\t$1\n}, [$2])"],
         "description": "Creates useEffect hook implementation"
     },
 

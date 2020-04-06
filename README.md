@@ -40,36 +40,36 @@ Found in: `css.json`
 
 Found in: `react.code-snippets`
 
-| snippet             | purpose                                                                                       |
-| ------------------- | --------------------------------------------------------------------------------------------- |
+| snippet             | purpose                                                                               |
+| ------------------- | ------------------------------------------------------------------------------------- |
 | **basic methods**   |
-| `imp`               | Import statement - defaults to importing React                                                |
-| `impd`              | Import statement deconstructed                                                                |
-| `expc`              | Export const statement                                                                        |
-| `expd`              | Export default statement                                                                      |
+| `imp`               | `import ${1:React} from '${2:react}'`                                                 |
+| `impd`              | `import { ${1:Component} } from '${2:module}'`                                        |
+| `expc`              | `export const $0`                                                                     |
+| `expd`              | `export default $0`                                                                   |
 | **components**      |
-| `class-component`   | Creates a class-based react component structure                                               |
-| `functional`        | Creates a functional react component structure                                                |
-| `stateless`         | Creates a functional stateless react component structure                                      |
+| `class-component`   | Creates a class-based react component structure                                       |
+| `functional`        | Creates a functional react component structure                                        |
+| `stateless`         | Creates a functional stateless react component structure                              |
 | **hooks**           |
-| `useEffect`         | useEffect hook statement                                                                      |
-| `useState`          | useState hook statement                                                                       |
-| `useContext`        | useContext hook statement                                                                     |
-| `useRef`            | useRef hook statement                                                                         |
+| `useEffect`         | `useEffect(() => { $1 }, [$2])`                                                       |
+| `useState`          | `const [${1:state}, ${2:setState}] = useState(${3:false})`                            |
+| `useContext`        | `const { ${1} } = useContext(${2})`                                                   |
+| `useRef`            | `const ${1:ref} = useRef(${2:null})`                                                  |
 | **conditionals**    |
-| `renif`             | Statement to render react element within jsx if condition returns true                        |
-| `renifel`           | Ternary statement to conditionally render two components                                      |
-| `retif`             | Statement to return a react element within component body if condition turns true             |
-| `retifs`            | Single line statement to return a react element within component body if condition turns true |
+| `renif`             | `{ ${1:condition} && ( $0 )}`                                                         |
+| `renifel`           | Ternary statement to conditionally render two components                              |
+| `retif`             | Statement to return a react element within component body if condition turns true     |
+| `retifs`            | `if (${1:condition}) return ${2:component}`                                           |
 | **other**           |
-| `elem-react`        | Creates a react-html element + 'className' attribute                                          |
-| `ternstyle`         | Creates a react-html style attribute with ternary operator                                    |
-| `onchangehandler`   | Creates an input changeHandler for 'name' and 'value' attributes                              |
-| `conditionalrender` | Creates a conditional rendering of a single component based on a single boolean state         |
-| `inputattrs`        | Creates row of standard text input element attributes                                         |
-| `deconstate`        | Creates const value for deconstructing state                                                  |
-| `deconcontext`      | Creates const value for deconstructing context                                                |
-| `fileheader`        | Creates js/jsx file comment header for file description                                       |
+| `elem-react`        | Creates a react-html element + 'className' attribute                                  |
+| `ternstyle`         | Creates a react-html style attribute with ternary operator                            |
+| `onchangehandler`   | Creates an input changeHandler for 'name' and 'value' attributes                      |
+| `conditionalrender` | Creates a conditional rendering of a single component based on a single boolean state |
+| `inputattrs`        | Creates row of standard text input element attributes                                 |
+| `deconstate`        | Creates const value for deconstructing state                                          |
+| `deconcontext`      | Creates const value for deconstructing context                                        |
+| `fileheader`        | Creates js/jsx file comment header for file description                               |
 | **React Native**    |
-| `rnimp`             | Import statement for components from react-native                                             |
-| `rnss`              | Statement to create react native stylesheet (optional import for StyleSheet object)           |
+| `rnimp`             | `import { ${1:Component} } from 'react-native'`                                       |
+| `rnss`              | `export default StyleSheet.create({$0})`                                              |
