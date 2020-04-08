@@ -34,6 +34,20 @@
         "description": "Basic for loop"
     },
 
+    // DESTRUCTURING
+
+    "Destructure object": {
+        "prefix": "dco",
+        "body": ["const { ${1:values} } = ${2:object}"],
+        "description": "Destructure object statement"
+    },
+
+    "Destructure array": {
+        "prefix": "dca",
+        "body": ["const [ ${1:values} ] = ${2:array}"],
+        "description": "Destructure array statement"
+    },
+
     // OTHER
 
     "Arrow Function": {

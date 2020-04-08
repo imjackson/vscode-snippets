@@ -139,6 +139,29 @@
         "description": "Return react element if condition returns true (single line)"
     },
 
+    // DESTRUCTURING
+
+    "Destructure State": {
+        "prefix": "dcs",
+        "scope": "javascript, javascriptreact",
+        "body": ["const { ${1:values} } = this.state"],
+        "description": "Destructure state statement"
+    },
+
+    "Destructure Context": {
+        "prefix": "dcc",
+        "scope": "javascript, javascriptreact",
+        "body": ["const { ${1:values} } = this.context"],
+        "description": "Destructure context statement"
+    },
+
+    "Destructure Props": {
+        "prefix": "dcp",
+        "scope": "javascript, javascriptreact",
+        "body": ["const { ${1:values} } = ${2:this.}props"],
+        "description": "Destructure props statement"
+    },
+
     // OTHER
 
     "React Element": {
@@ -181,20 +204,6 @@
         "scope": "javascript, javascriptreact",
         "body": ["name='$1' value={$2} onChange={$3} placeholder='$4' $0"],
         "description": "Creates row of standard input attributes"
-    },
-
-    "Deconstructed State": {
-        "prefix": "deconstate",
-        "scope": "javascript, javascriptreact",
-        "body": ["const { ${1:values} } = this.state"],
-        "description": "Creates const for deconstructed state values"
-    },
-
-    "Deconstructed Context": {
-        "prefix": "deconcontext",
-        "scope": "javascript, javascriptreact",
-        "body": ["const { ${1:values} } = this.context"],
-        "description": "Creates const for deconstructed context values"
     },
 
     "File Header": {

@@ -10,19 +10,22 @@ This respository holds my VSCode User Snippets files.
 
 Found in: `javascript.json`
 
-| snippet          | purpose                                                           |
-| ---------------- | ----------------------------------------------------------------- |
-| **loops**        |
-| `fl`             | For loop statement                                                |
-| `wl`             | While loop statement                                              |
-| `dwl`            | Do...while loop statement                                         |
-| `fil`            | For...in loop statement (loop over iterable names)                |
-| `fol`            | For...of loop statement (loop over iterable values)               |
-| **other**        |
-| `arrow`          | Creates an arrow function                                         |
-| `maparray`       | Implements array.map, passing currentValue and index              |
-| `simplemaparray` | Implements array.map, passing only currentValue with arrow syntax |
-| `functimeout`    | Implements setTimeout() around a function                         |
+| snippet           | purpose                                                           |
+| ----------------- | ----------------------------------------------------------------- |
+| **loops**         |
+| `fl`              | For loop statement                                                |
+| `wl`              | While loop statement                                              |
+| `dwl`             | Do...while loop statement                                         |
+| `fil`             | For...in loop statement (loop over iterable names)                |
+| `fol`             | For...of loop statement (loop over iterable values)               |
+| **destructuring** |
+| `dco`             | `const { ${1:values} } = ${2:object}`                             |
+| `dca`             | `const [ ${1:values} ] = ${2:array}`                              |
+| **other**         |
+| `arrow`           | Creates an arrow function                                         |
+| `maparray`        | Implements array.map, passing currentValue and index              |
+| `simplemaparray`  | Implements array.map, passing only currentValue with arrow syntax |
+| `functimeout`     | Implements setTimeout() around a function                         |
 
 ### CSS
 
@@ -62,19 +65,22 @@ Found in: `react.code-snippets`
 | `useState`          | `const [${1:state}, ${2:setState}] = useState(${3:false})`                            |
 | `useContext`        | `const { ${1} } = useContext(${2})`                                                   |
 | `useRef`            | `const ${1:ref} = useRef(${2:null})`                                                  |
+| `useRef`            | `const ${1:ref} = useRef(${2:null})`                                                  |
 | **conditionals**    |
 | `renif`             | `{ ${1:condition} && ( $0 )}`                                                         |
 | `renifel`           | Ternary statement to conditionally render two components                              |
 | `retif`             | Statement to return a react element within component body if condition turns true     |
 | `retifs`            | `if (${1:condition}) return ${2:component}`                                           |
+| **destructuring**   |
+| `dcs`               | Destructure state statement                                                           |
+| `dcc`               | Destructure context statement                                                         |
+| `dcp`               | Destructure props statement                                                           |
 | **other**           |
 | `elem-react`        | Creates a react-html element + 'className' attribute                                  |
 | `ternstyle`         | Creates a react-html style attribute with ternary operator                            |
 | `onchangehandler`   | Creates an input changeHandler for 'name' and 'value' attributes                      |
 | `conditionalrender` | Creates a conditional rendering of a single component based on a single boolean state |
 | `inputattrs`        | Creates row of standard text input element attributes                                 |
-| `deconstate`        | Creates const value for deconstructing state                                          |
-| `deconcontext`      | Creates const value for deconstructing context                                        |
 | `fileheader`        | Creates js/jsx file comment header for file description                               |
 | **React Native**    |
 | `rnimp`             | `import { ${1:Component} } from 'react-native'`                                       |
