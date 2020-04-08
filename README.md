@@ -27,7 +27,6 @@ Found in: `javascript.json`
 | `dco`             | `const { ${1:values} } = ${2:object}`                             |
 | `dca`             | `const [ ${1:values} ] = ${2:array}`                              |
 | **other**         |
-| `arrow`           | Creates an arrow function                                         |
 | `maparray`        | Implements array.map, passing currentValue and index              |
 | `simplemaparray`  | Implements array.map, passing only currentValue with arrow syntax |
 | `functimeout`     | Implements setTimeout() around a function                         |

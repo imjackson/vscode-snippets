@@ -78,12 +78,6 @@
 
     // OTHER
 
-    "Arrow Function": {
-        "prefix": "arrow",
-        "body": ["$1 = ($2) => {", "\t$0", "}"],
-        "description": "Basic arrow function"
-    },
-
     "Map": {
         "prefix": "maparray",
         "body": ["${1:array}.map(($2, index) => {$0})"],
