@@ -12,7 +12,13 @@ Found in: `javascript.json`
 
 | snippet          | purpose                                                           |
 | ---------------- | ----------------------------------------------------------------- |
-| `forloop`        | Creates a for loop                                                |
+| **loops**        |
+| `fl`             | For loop statement                                                |
+| `wl`             | While loop statement                                              |
+| `dwl`            | Do...while loop statement                                         |
+| `fil`            | For...in loop statement (loop over iterable names)                |
+| `fol`            | For...of loop statement (loop over iterable values)               |
+| **other**        |
 | `arrow`          | Creates an arrow function                                         |
 | `maparray`       | Implements array.map, passing currentValue and index              |
 | `simplemaparray` | Implements array.map, passing only currentValue with arrow syntax |
