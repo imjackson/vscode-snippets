@@ -8,7 +8,7 @@ This respository holds my VSCode User Snippets files.
 
 ### JavaScript
 
-Found in: `javascript.json`
+Found in: [`javascript.json`](./javascript.json)
 
 | snippet           | purpose                                                           |
 | ----------------- | ----------------------------------------------------------------- |
@@ -42,7 +42,7 @@ Found in: `javascript.json`
 
 ### CSS
 
-Found in: `css.json`
+Found in: [`css.json`](./css.json)
 
 | snippet            | purpose                                                                                |
 | ------------------ | -------------------------------------------------------------------------------------- |
@@ -85,7 +85,7 @@ Found in: `css.json`
 
 ### React
 
-Found in: `react.code-snippets`
+Found in: [`react.code-snippets`](./react.code-snippets)
 
 | snippet                      | purpose                                                                               |
 | ---------------------------- | ------------------------------------------------------------------------------------- |
