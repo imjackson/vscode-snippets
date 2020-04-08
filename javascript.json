@@ -2,6 +2,34 @@
     // javascript.json
     // JavaScript specific user snippets
 
+    // FUNCTIONS
+
+    "Function declaration": {
+        "prefix": "fnd",
+        "body": ["function ${1:name}(${2:params}) {\n\t$0\n}"],
+        "description": "Function declaration statement"
+    },
+
+    "Function expression": {
+        "prefix": "fne",
+        "body": ["const ${1:varName} = (${2:params}) => {\n\t$0\n}"],
+        "description": "Function expression statement"
+    },
+
+    "Named function expression": {
+        "prefix": "nfne",
+        "body": [
+            "const ${1:varName} = function ${2:name}(${3:params}) {\n\t$0\n}"
+        ],
+        "description": "Function expression statement"
+    },
+
+    "Immediately invoked function expression": {
+        "prefix": "iife",
+        "body": ["(() => {\n\t$0\n})()"],
+        "description": "Immediately invoked function expression statement"
+    },
+
     // LOOPS
 
     "For loop": {

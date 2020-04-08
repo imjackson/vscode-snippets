@@ -12,6 +12,11 @@ Found in: `javascript.json`
 
 | snippet           | purpose                                                           |
 | ----------------- | ----------------------------------------------------------------- |
+| **functions**     |
+| `fnd`             | `function ${1:name}(${2:params}) { $0 }`                          |
+| `fne`             | `const ${1:varName} = (${2:params}) => { $0 }`                    |
+| `nfne`            | `const ${1:varName} = function ${2:name}(${3:params}) { $0 }`     |
+| `iife`            | `(() => { $0 })()`                                                |
 | **loops**         |
 | `fl`              | For loop statement                                                |
 | `wl`              | While loop statement                                              |
