@@ -26,6 +26,15 @@ Found in: `javascript.json`
 | **destructuring** |
 | `dco`             | `const { ${1:values} } = ${2:object}`                             |
 | `dca`             | `const [ ${1:values} ] = ${2:array}`                              |
+| **console**       |
+| `cl`              | `console.log($0)`                                                 |
+| `cw`              | `console.warn($0)`                                                |
+| `cer`             | `console.error($0)`                                               |
+| `cin`             | `console.info($0)`                                                |
+| `cti`             | `console.time($0)`                                                |
+| `ctie`            | `console.timeEnd($0)`                                             |
+| `ctb`             | `console.table($0)`                                               |
+| `ccl`             | `console.clear()`                                                 |
 | **other**         |
 | `maparray`        | Implements array.map, passing currentValue and index              |
 | `simplemaparray`  | Implements array.map, passing only currentValue with arrow syntax |
