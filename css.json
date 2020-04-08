@@ -46,6 +46,56 @@
         "description": "display: flex"
     },
 
+    // FLEX
+
+    "flex-flow": {
+        "prefix": "flf",
+        "body": ["flex-flow: $1;$0"],
+        "description": "flex-flow:"
+    },
+
+    "flex-wrap": {
+        "prefix": "flw",
+        "body": ["flex-wrap: $1;$0"],
+        "description": "flex-wrap:"
+    },
+
+    "flex-direction": {
+        "prefix": "fld",
+        "body": ["flex-direction: $1;$0"],
+        "description": "flex-direction:"
+    },
+
+    "flex-direction: row": {
+        "prefix": "fldr",
+        "body": ["flex-direction: row;$0"],
+        "description": "flex-direction: row"
+    },
+
+    "flex-direction: column": {
+        "prefix": "fldc",
+        "body": ["flex-direction: column;$0"],
+        "description": "flex-direction: column"
+    },
+
+    "align-items": {
+        "prefix": "ai",
+        "body": ["align-items: $1;$0"],
+        "description": "align-items: $1"
+    },
+
+    "align-content": {
+        "prefix": "ac",
+        "body": ["align-content: $1;$0"],
+        "description": "align-content: $1"
+    },
+
+    "justify-content": {
+        "prefix": "jc",
+        "body": ["justify-content: $1;$0"],
+        "description": "justify-content: $1"
+    },
+
     // FONT/TEXT
 
     "color": {

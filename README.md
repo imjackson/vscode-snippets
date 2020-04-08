@@ -61,6 +61,15 @@ Found in: `css.json`
 | `fst`              | `font-style: $0;`                                                                      |
 | `td`               | `text-decoration: $0;`                                                                 |
 | `lh`               | `line-height: $0;`                                                                     |
+| **flex**           |
+| `flf`              | `flex-flow: $0;`                                                                       |
+| `flw`              | `flex-wrap: $0;`                                                                       |
+| `fld`              | `flex-direction: $0;`                                                                  |
+| `fldr`             | `flex-direction: row;`                                                                 |
+| `fldc`             | `flex-direction: column;`                                                              |
+| `ai`               | `align-items: $0;`                                                                     |
+| `ac`               | `align-content: $0;`                                                                   |
+| `jc`               | `justify-content: $0;`                                                                 |
 | **other**          |
 | `csflex`           | Creates styling rules for a flex-box with placeholders                                 |
 | `centerflex`       | Creates styling rules for a completely centered flex-box                               |
