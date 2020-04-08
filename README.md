@@ -53,6 +53,14 @@ Found in: `css.json`
 | `dib`              | `display: inline-block;`                                                               |
 | `dg`               | `display: grid;`                                                                       |
 | `df`               | `display: flex;`                                                                       |
+| **font/text**      |
+| `co`               | `font-family: $0;`                                                                     |
+| `ff`               | `font-family: $0;`                                                                     |
+| `fs`               | `font-size: $0;`                                                                       |
+| `fw`               | `font-weight: $0;`                                                                     |
+| `fst`              | `font-style: $0;`                                                                      |
+| `td`               | `text-decoration: $0;`                                                                 |
+| `lh`               | `line-height: $0;`                                                                     |
 | **other**          |
 | `csflex`           | Creates styling rules for a flex-box with placeholders                                 |
 | `centerflex`       | Creates styling rules for a completely centered flex-box                               |

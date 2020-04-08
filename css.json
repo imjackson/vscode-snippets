@@ -46,6 +46,50 @@
         "description": "display: flex"
     },
 
+    // FONT/TEXT
+
+    "color": {
+        "prefix": "co",
+        "body": ["color: $1;$0"],
+        "description": "color: $1"
+    },
+
+    "font-family": {
+        "prefix": "ff",
+        "body": ["font-family: $1;$0"],
+        "description": "font-family: $1"
+    },
+
+    "font-size": {
+        "prefix": "fs",
+        "body": ["font-size: $1;$0"],
+        "description": "font-size: $1"
+    },
+
+    "font-weight": {
+        "prefix": "fw",
+        "body": ["font-weight: $1;$0"],
+        "description": "font-weight: $1"
+    },
+
+    "font-style": {
+        "prefix": "fst",
+        "body": ["font-style: $1;$0"],
+        "description": "font-style: $1"
+    },
+
+    "text-decoration": {
+        "prefix": "td",
+        "body": ["text-decoration: $1;$0"],
+        "description": "text-decoration: $1"
+    },
+
+    "line-height": {
+        "prefix": "lh",
+        "body": ["line-height: $1;$0"],
+        "description": "line-height: $1"
+    },
+
     // OTHER
 
     "CSS-Flex": {
