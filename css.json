@@ -2,6 +2,52 @@
     // css.json
     // CSS specific user snippets
 
+    // DISPLAY
+
+    "display:": {
+        "prefix": "d",
+        "body": ["display: $1;$0"],
+        "description": "display"
+    },
+
+    "display: block": {
+        "prefix": "db",
+        "body": ["display: block;"],
+        "description": "display: block"
+    },
+
+    "display: inline": {
+        "prefix": "di",
+        "body": ["display: inline;"],
+        "description": "display: inline"
+    },
+
+    "display: inline-block": {
+        "prefix": "dib",
+        "body": ["display: inline-block;"],
+        "description": "display: inline-block"
+    },
+
+    "display: grid": {
+        "prefix": "dg",
+        "body": ["display: grid;"],
+        "description": "display: grid"
+    },
+
+    "display: none": {
+        "prefix": "dn",
+        "body": ["display: none;"],
+        "description": "display: none"
+    },
+
+    "display: flex": {
+        "prefix": "df",
+        "body": ["display: flex;"],
+        "description": "display: flex"
+    },
+
+    // OTHER
+
     "CSS-Flex": {
         "prefix": "csflex",
         "body": [

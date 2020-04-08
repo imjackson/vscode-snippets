@@ -46,6 +46,14 @@ Found in: `css.json`
 
 | snippet            | purpose                                                                                |
 | ------------------ | -------------------------------------------------------------------------------------- |
+| **display**        |
+| `d`                | `display: $0;`                                                                         |
+| `db`               | `display: block;`                                                                      |
+| `di`               | `display: inline;`                                                                     |
+| `dib`              | `display: inline-block;`                                                               |
+| `dg`               | `display: grid;`                                                                       |
+| `df`               | `display: flex;`                                                                       |
+| **other**          |
 | `csflex`           | Creates styling rules for a flex-box with placeholders                                 |
 | `centerflex`       | Creates styling rules for a completely centered flex-box                               |
 | `setfont`          | Outputs lines for setting font family/size/weight                                      |
