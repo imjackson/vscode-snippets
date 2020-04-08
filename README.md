@@ -63,8 +63,7 @@ Found in: `react.code-snippets`
 | **hooks**           |
 | `useEffect`         | `useEffect(() => { $1 }, [$2])`                                                       |
 | `useState`          | `const [${1:state}, ${2:setState}] = useState(${3:false})`                            |
-| `useContext`        | `const { ${1} } = useContext(${2})`                                                   |
-| `useRef`            | `const ${1:ref} = useRef(${2:null})`                                                  |
+| `useContext`        | `const { ${1:values} } = useContext($2)`                                              |
 | `useRef`            | `const ${1:ref} = useRef(${2:null})`                                                  |
 | **conditionals**    |
 | `renif`             | `{ ${1:condition} && ( $0 )}`                                                         |

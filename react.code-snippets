@@ -98,7 +98,7 @@
     "useContext": {
         "prefix": "useContext",
         "scope": "javascript, javascriptreact",
-        "body": ["const { ${1} } = useContext(${2})"],
+        "body": ["const { ${1:values} } = useContext($2)"],
         "description": "Creates useContext hook implementation"
     },
 
