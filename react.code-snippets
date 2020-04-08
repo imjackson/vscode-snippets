@@ -81,13 +81,6 @@
 
     // HOOKS
 
-    "useEffect": {
-        "prefix": "useEffect",
-        "scope": "javascript, javascriptreact",
-        "body": ["useEffect(() => {\n\t$1\n}, [$2])"],
-        "description": "Creates useEffect hook implementation"
-    },
-
     "useState": {
         "prefix": "useState",
         "scope": "javascript, javascriptreact",
@@ -107,6 +100,20 @@
         "scope": "javascript, javascriptreact",
         "body": ["const ${1:ref} = useRef(${2:null})"],
         "description": "Creates useContext hook implementation"
+    },
+
+    "useEffect": {
+        "prefix": "useEffect",
+        "scope": "javascript, javascriptreact",
+        "body": ["useEffect(() => {\n\t$1\n}, [$2])"],
+        "description": "Creates useEffect hook implementation"
+    },
+
+    "useLayoutEffect": {
+        "prefix": "useLayoutEffect",
+        "scope": "javascript, javascriptreact",
+        "body": ["useLayoutEffect(() => {\n\t$1\n}, [$2])"],
+        "description": "Creates useEffect hook implementation"
     },
 
     // CONDITIONALS

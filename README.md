@@ -49,38 +49,39 @@ Found in: `css.json`
 
 Found in: `react.code-snippets`
 
-| snippet             | purpose                                                                               |
-| ------------------- | ------------------------------------------------------------------------------------- |
-| **basic methods**   |
-| `imp`               | `import ${1:React} from '${2:react}'`                                                 |
-| `impd`              | `import { ${1:Component} } from '${2:module}'`                                        |
-| `expc`              | `export const $0`                                                                     |
-| `expd`              | `export default $0`                                                                   |
-| **components**      |
-| `class-component`   | Creates a class-based react component structure                                       |
-| `functional`        | Creates a functional react component structure                                        |
-| `stateless`         | Creates a functional stateless react component structure                              |
-| **hooks**           |
-| `useEffect`         | `useEffect(() => { $1 }, [$2])`                                                       |
-| `useState`          | `const [${1:state}, ${2:setState}] = useState(${3:false})`                            |
-| `useContext`        | `const { ${1:values} } = useContext($2)`                                              |
-| `useRef`            | `const ${1:ref} = useRef(${2:null})`                                                  |
-| **conditionals**    |
-| `renif`             | `{ ${1:condition} && ( $0 )}`                                                         |
-| `renifel`           | Ternary statement to conditionally render two components                              |
-| `retif`             | Statement to return a react element within component body if condition turns true     |
-| `retifs`            | `if (${1:condition}) return ${2:component}`                                           |
-| **destructuring**   |
-| `dcs`               | Destructure state statement                                                           |
-| `dcc`               | Destructure context statement                                                         |
-| `dcp`               | Destructure props statement                                                           |
-| **other**           |
-| `elem-react`        | Creates a react-html element + 'className' attribute                                  |
-| `ternstyle`         | Creates a react-html style attribute with ternary operator                            |
-| `onchangehandler`   | Creates an input changeHandler for 'name' and 'value' attributes                      |
-| `conditionalrender` | Creates a conditional rendering of a single component based on a single boolean state |
-| `inputattrs`        | Creates row of standard text input element attributes                                 |
-| `fileheader`        | Creates js/jsx file comment header for file description                               |
-| **React Native**    |
-| `rnimp`             | `import { ${1:Component} } from 'react-native'`                                       |
-| `rnss`              | `export default StyleSheet.create({$0})`                                              |
+| snippet                      | purpose                                                                               |
+| ---------------------------- | ------------------------------------------------------------------------------------- |
+| **basic statements/methods** |
+| `imp`                        | `import ${1:React} from '${2:react}'`                                                 |
+| `impd`                       | `import { ${1:Component} } from '${2:module}'`                                        |
+| `expc`                       | `export const $0`                                                                     |
+| `expd`                       | `export default $0`                                                                   |
+| **components**               |
+| `class-component`            | Creates a class-based react component structure                                       |
+| `functional`                 | Creates a functional react component structure                                        |
+| `stateless`                  | Creates a functional stateless react component structure                              |
+| **hooks**                    |
+| `useState`                   | `const [${1:state}, ${2:setState}] = useState(${3:false})`                            |
+| `useContext`                 | `const { ${1:values} } = useContext($2)`                                              |
+| `useRef`                     | `const ${1:ref} = useRef(${2:null})`                                                  |
+| `useEffect`                  | `useEffect(() => { $1 }, [$2])`                                                       |
+| `useLayoutEffect`            | `useLayoutEffect(() => { $1 }, [$2])`                                                 |
+| **conditionals**             |
+| `renif`                      | `{ ${1:condition} && ( $0 )}`                                                         |
+| `renifel`                    | Ternary statement to conditionally render two components                              |
+| `retif`                      | Statement to return a react element within component body if condition turns true     |
+| `retifs`                     | `if (${1:condition}) return ${2:component}`                                           |
+| **destructuring**            |
+| `dcs`                        | Destructure state statement                                                           |
+| `dcc`                        | Destructure context statement                                                         |
+| `dcp`                        | Destructure props statement                                                           |
+| **other**                    |
+| `elem-react`                 | Creates a react-html element + 'className' attribute                                  |
+| `ternstyle`                  | Creates a react-html style attribute with ternary operator                            |
+| `onchangehandler`            | Creates an input changeHandler for 'name' and 'value' attributes                      |
+| `conditionalrender`          | Creates a conditional rendering of a single component based on a single boolean state |
+| `inputattrs`                 | Creates row of standard text input element attributes                                 |
+| `fileheader`                 | Creates js/jsx file comment header for file description                               |
+| **React Native**             |
+| `rnimp`                      | `import { ${1:Component} } from 'react-native'`                                       |
+| `rnss`                       | `export default StyleSheet.create({$0})`                                              |
