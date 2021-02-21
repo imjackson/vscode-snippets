@@ -14,7 +14,13 @@ init() {
 }
 
 create_links() {
-    echo "Creating symlinks at $path"
+    cd snippets/
+    for file in *; do
+        if [[ ! -L ~/$path/$file ]]; then
+		    printf "\nCreating symlink for ${file}\n\n"
+		    ln -sfv $(pwd)/$file "$path"/$file
+	    fi
+    done
 }
 
 if [[ "$os" =~ ^linux ]]; then
