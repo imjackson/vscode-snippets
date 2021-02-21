@@ -1,0 +1,259 @@
+{
+    // css.json
+    // CSS specific user snippets
+
+    // DISPLAY
+
+    "display:": {
+        "prefix": "d",
+        "body": ["display: $1;$0"],
+        "description": "display"
+    },
+
+    "display: block": {
+        "prefix": "db",
+        "body": ["display: block;"],
+        "description": "display: block"
+    },
+
+    "display: inline": {
+        "prefix": "di",
+        "body": ["display: inline;"],
+        "description": "display: inline"
+    },
+
+    "display: inline-block": {
+        "prefix": "dib",
+        "body": ["display: inline-block;"],
+        "description": "display: inline-block"
+    },
+
+    "display: grid": {
+        "prefix": "dg",
+        "body": ["display: grid;"],
+        "description": "display: grid"
+    },
+
+    "display: none": {
+        "prefix": "dn",
+        "body": ["display: none;"],
+        "description": "display: none"
+    },
+
+    "display: flex": {
+        "prefix": "df",
+        "body": ["display: flex;"],
+        "description": "display: flex"
+    },
+
+    // FLEX
+
+    "flex-flow": {
+        "prefix": "flf",
+        "body": ["flex-flow: $1;$0"],
+        "description": "flex-flow:"
+    },
+
+    "flex-wrap": {
+        "prefix": "flw",
+        "body": ["flex-wrap: $1;$0"],
+        "description": "flex-wrap:"
+    },
+
+    "flex-direction": {
+        "prefix": "fld",
+        "body": ["flex-direction: $1;$0"],
+        "description": "flex-direction:"
+    },
+
+    "flex-direction: row": {
+        "prefix": "fldr",
+        "body": ["flex-direction: row;$0"],
+        "description": "flex-direction: row"
+    },
+
+    "flex-direction: column": {
+        "prefix": "fldc",
+        "body": ["flex-direction: column;$0"],
+        "description": "flex-direction: column"
+    },
+
+    "align-items": {
+        "prefix": "ai",
+        "body": ["align-items: $1;$0"],
+        "description": "align-items: $1"
+    },
+
+    "align-content": {
+        "prefix": "ac",
+        "body": ["align-content: $1;$0"],
+        "description": "align-content: $1"
+    },
+
+    "justify-content": {
+        "prefix": "jc",
+        "body": ["justify-content: $1;$0"],
+        "description": "justify-content: $1"
+    },
+
+    // FONT/TEXT
+
+    "color": {
+        "prefix": "co",
+        "body": ["color: $1;$0"],
+        "description": "color: $1"
+    },
+
+    "font-family": {
+        "prefix": "ff",
+        "body": ["font-family: $1;$0"],
+        "description": "font-family: $1"
+    },
+
+    "font-size": {
+        "prefix": "fs",
+        "body": ["font-size: $1;$0"],
+        "description": "font-size: $1"
+    },
+
+    "font-weight": {
+        "prefix": "fw",
+        "body": ["font-weight: $1;$0"],
+        "description": "font-weight: $1"
+    },
+
+    "font-style": {
+        "prefix": "fst",
+        "body": ["font-style: $1;$0"],
+        "description": "font-style: $1"
+    },
+
+    "text-decoration": {
+        "prefix": "td",
+        "body": ["text-decoration: $1;$0"],
+        "description": "text-decoration: $1"
+    },
+
+    "line-height": {
+        "prefix": "lh",
+        "body": ["line-height: $1;$0"],
+        "description": "line-height: $1"
+    },
+
+    // OTHER
+
+    "CSS-Flex": {
+        "prefix": "csflex",
+        "body": [
+            "display: flex;",
+            "flex-flow: $1;",
+            "justify-content: $2;",
+            "align-items: $3;$0"
+        ],
+        "description": "CSS Flexbox - centered default"
+    },
+
+    "Flex-Col": {
+        "prefix": "centerflex",
+        "body": [
+            "display: flex;",
+            "flex-flow: column nowrap;",
+            "justify-content: center;",
+            "align-items: center;"
+        ],
+        "description": "Flexbox - Column"
+    },
+
+    "Set Font": {
+        "prefix": "setfont",
+        "body": ["font-family: $1;", "font-size: $2;", "font-weight: $3;$0"],
+        "description": "Outputs lines for setting font family/size/weight"
+    },
+
+    "Full Break": {
+        "prefix": "fullbreak",
+        "body": [
+            "border: none;",
+            "width: 100%;",
+            "height: 2px",
+            "background-color: ${1:#bdc3c7};",
+            "margin: 1rem 0;$0"
+        ],
+        "description": "Full horizontal rule formatting"
+    },
+
+    "Calculated Width": {
+        "prefix": "calcwidth",
+        "body": ["width: calc($1);$0"],
+        "description": "Calculated width"
+    },
+
+    "Width - Padding": {
+        "prefix": "widthpadding",
+        "body": ["width: calc(${1:100%} - $2);", "padding: $3 $4;$0"],
+        "description": "Width and padding rules with width factoring in padding"
+    },
+
+    "File Header": {
+        "prefix": "fileheader",
+        "body": [
+            "/*",
+            "",
+            "${1:filename}.css",
+            "------------------------",
+            "${2:file description}",
+            "",
+            "*/"
+        ],
+        "description": "Creates css comment file header"
+    },
+
+    "Fade-In": {
+        "prefix": "fadein-keyframe",
+        "body": [
+            "@keyframes fade-in {",
+            "\t0% {",
+            "\t\topacity: 0;",
+            "\t} 100% {",
+            "\t\topacity: 1;",
+            "\t}",
+            "}"
+        ],
+        "description": "Outputs basic fade-in css keyframes"
+    },
+
+    "Loading": {
+        "prefix": "loading-keyframe",
+        "body": [
+            "@keyframes loading {",
+            "\t0% {",
+            "\t\ttransform: rotate(0deg);",
+            "\t} 100% {",
+            "\t\ttransform: rotate(360deg); ",
+            "\t}",
+            "}"
+        ],
+        "description": "Outputs basic spinner loading circle css keyframes"
+    },
+
+    "Loading Element": {
+        "prefix": "loading-element",
+        "body": [
+            ".LoadingIcon {",
+            "\theight: 70px;",
+            "\twidth: 70px;",
+            "\tborder-radius: 50%;",
+            "\tanimation: spin 1s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;",
+            "\tborder: 8px solid transparent;",
+            "\tborder-top: 8px solid #252525",
+            "}"
+        ],
+        "description": "Outputs basic spinner loading circle element style rules"
+    },
+
+    "Media Query": {
+        "prefix": "mediaquery",
+        "body": ["@media screen and (max-width: ${1:1000px}) {$0}"],
+        "description": "Outputs max-width-based media query"
+    }
+}
