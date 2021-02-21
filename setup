@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# get ostype
+os="$OSTYPE"
+
+init() {
+    if [[ -d $path ]]; then
+        create_links $path
+    else
+        echo -e "\n - No snippets directory found: creating one now at $path\n"
+        mkdir "$path"
+        create_links $path
+    fi
+}
+
+create_links() {
+    echo "Creating symlinks at $path"
+}
+
+if [[ "$os" =~ ^linux ]]; then
+    path=~/.config/Code/User/snippets
+    init
+elif [[ "$os" =~ ^darwin ]]; then
+    path=~/Library/Application\ Support/Code/User/snippets
+    init
+else
+    echo "I'm not sure where to find the Snippets directory: aborting."
+fi
