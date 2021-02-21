@@ -4,6 +4,18 @@
 
 This respository holds my VSCode User Snippets files.
 
+## Setup
+
+The local version of this repository is designed to live outside of the regular snippets locations; snippets files are symlinked from the working repository. To setup the symlinks, run `setup`. 
+
+**Warning**: If you already have existing snippets files under any of the file names within this repository: they will be overwritten by the newly made symlinks.
+
+## Use
+
+The snippets files live within the [/snippets](/snippets) directory. Once they are symlinked using the `setup` script, they are updated automatically.
+
+If you add additional snippets files at any point, the `setup` script should be rerun.
+
 ## Directory
 
 ### JavaScript
